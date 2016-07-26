@@ -1,0 +1,140 @@
+/* For screen <= 768px */
+@media all and (max-width:768px) {
+
+	body {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background-color: #e8dd95;
+		color: #444;
+	}
+
+	.modalbox {
+		margin: 0 auto;
+		width: 95%;
+		background-color: #ffa7a4;
+		border-radius: 10px;
+	}
+
+	.modalbox header button {
+		display: none;
+	}
+
+	.modalbox section p {
+		padding: 50px 50px 0 50px;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		line-height: 28px;
+		text-align: justify;
+	}
+
+	footer {
+		text-align: center;
+		padding: 5%;
+	}
+	
+	/* button Watch Video */
+	footer button {
+		width: 260px;
+		height: 56px;
+		background-color: #b283e8;
+		border-radius: 10px;
+		border: 0;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 24px;
+		font-weight: 900;
+		letter-spacing: -1px;
+		color: #fff;
+		outline: 0;
+		cursor: pointer;
+	}
+
+}
+
+/* For screen >= 769px */
+@media all and (min-width:769px) {
+
+	body {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		background-color: #e8dd95;
+		color: #444;
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
+
+	.modalbox {
+		margin: 0 auto;
+		width: 80%;
+		height: 70%;
+		max-width: 500px;
+		min-height: 300px;
+		background-color: #ffa7a4;
+		border-radius: 20px;
+	}
+
+	.modalbox header {
+		text-align: right;
+	}
+
+	/* button Close Window */
+	.modalbox header button {
+		width: 40px;
+		height: 40px;
+		background-color: #b283e8;
+		border-radius: 50px;
+		border: 0;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 20px;
+		font-weight: 900;
+		color: #fff;
+		outline: 0;
+		cursor: pointer;
+	}
+	
+	.modalbox section {
+		max-height: 350px;
+		min-height: 250px;
+		overflow: auto;
+	}
+
+	.modalbox section p {
+	/*	width: 75%;		
+		height: 300px;
+		overflow: auto;*/
+		padding: 0 50px 0 50px;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		line-height: 28px;
+		text-align: justify;
+		column-count: 2;
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-gap: 26px;
+		-moz-column-gap: 26px;
+		-webkit-column-gap: 26px;
+	}
+
+	footer {
+		text-align: center;
+		padding: 5%;
+	}
+	
+	/* button Watch Video */
+	footer button {
+		width: 260px;
+		height: 56px;
+		background-color: #b283e8;
+		border-radius: 10px;
+		border: 0;
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 24px;
+		font-weight: 900;
+		letter-spacing: -1px;
+		color: #fff;
+		outline: 0;
+		cursor: pointer;
+	}
+
+}	
